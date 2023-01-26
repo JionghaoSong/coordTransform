@@ -1,0 +1,1 @@
+python coord_converter.py -i test_input.csv -o test_output.csv -t w2g
