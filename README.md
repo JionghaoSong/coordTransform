@@ -24,26 +24,3 @@ $ python coord_converter.py -i test_input.csv -o test_output.csv -t b2g -n 经�
 ```
 
 
-```bash
-# 查看使用帮助
-$ python coord_converter.py -h
-
-usage: coord_converter.py [-h] -i INPUT -o OUTPUT -t TYPE [-n LNG_COLUMN] [-a LAT_COLUMN] [-s SKIP_INVALID_ROW]
-
-Convert coordinates in csv files.
-
-optional arguments:
-  -h, --help            show this help message and exit
-
-arguments:
-  -i , --input          Location of input file
-  -o , --output         Location of output file
-  -t , --type           Convert type, must be one of: g2b, b2g, w2g, g2w, b2w,
-                        w2b
-  -n , --lng_column     Column name for longitude (default: lng)
-  -a , --lat_column     Column name for latitude (default: lat)
-  -s , --skip_invalid_row
-                        Whether to skip invalid row (default: False)
-```
-
-
